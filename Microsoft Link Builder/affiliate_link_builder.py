@@ -1,7 +1,6 @@
 __author__ = 'Fdyo'
 #coding: utf-8
 import webbrowser
-import urllib2
 target_url = raw_input('Please enter the Microsoft Product url address:')
 def create_affiliate_url(target_url):
     real_url = target_url.split('?')[0].strip()
