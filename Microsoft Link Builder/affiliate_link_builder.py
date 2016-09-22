@@ -9,6 +9,3 @@ def create_affiliate_url(target_url):
 affiliate_url = create_affiliate_url(target_url)
 print affiliate_url
 webbrowser.open(affiliate_url)
-
-
-
